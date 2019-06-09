@@ -13,3 +13,11 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+###################################
+# Description : Variables
+################################### 
+# Single Alignment
+x = 1             # int
+y = 2.5           # float
+name = 'James'    # str
+isValidate = True # boolean
