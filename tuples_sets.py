@@ -28,7 +28,36 @@ print(fruits[1])
 del fruits2
 # print(fruits2) #NameError: name 'fruits2' is not defined
 
-# Get length
+# Get length Len()
 print(len(fruits))
 
 # A Set is a collection which is unordered and unindexed. No duplicate members.
+
+###################################
+## Description: Create tuples sets
+###################################
+fruits = {'Apples', 'Oranges', 'Mango'}
+print(fruits)
+
+# Check if In the Set
+print('Apples' in fruits)
+
+# Add to set Add()
+fruits.add('Grape')
+print(fruits)
+
+# Remove from set Remove()
+fruits.remove('Grape')
+print(fruits)
+
+# Add duplicate
+fruits.add('Apples')
+
+# Clear Set Clear()
+fruits.clear()
+print(fruits)
+
+# Deleting a set Del()
+del fruits
+# print(fruits) NameError: name 'fruits' is not defined
+
