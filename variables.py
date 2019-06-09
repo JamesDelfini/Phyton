@@ -26,3 +26,15 @@ isValidate = True # boolean
 x, y, name, isValidate = (1, 2.5, 'James', True)
 
 print(x, y, name, isValidate)
+
+# Basic Math
+a = x + y
+
+print (a)
+
+# Casting
+x = str(x)
+y = int(y) 
+z = float(y)
+
+print(type(x), y, z)
