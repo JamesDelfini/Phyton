@@ -21,3 +21,8 @@ x = 1             # int
 y = 2.5           # float
 name = 'James'    # str
 isValidate = True # boolean
+
+# Multiple Assignment
+x, y, name, isValidate = (1, 2.5, 'James', True)
+
+print(x, y, name, isValidate)
